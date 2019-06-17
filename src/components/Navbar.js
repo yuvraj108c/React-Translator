@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
 
-const Navbar = () => {
-  const [lang, setLang] = useState("en");
+const Navbar = props => {
+  const [lang, setLang] = useState(props.language);
+
+  useEffect(() => {
+    props.changeLanguage(lang);
+  }, [lang]);
 
   const handleChange = event => {
     setLang(event.target.value);
