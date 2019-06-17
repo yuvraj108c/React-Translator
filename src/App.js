@@ -4,10 +4,14 @@ import { connect } from "react-redux";
 import Navbar from "./components/Navbar";
 
 import "./App.css";
+import Home from "./components/Home";
 
 const App = props => {
   return (
-    <Navbar language={props.language} changeLanguage={props.changeLanguage} />
+    <div className="container">
+      <Navbar language={props.language} changeLanguage={props.changeLanguage} />
+      <Home />
+    </div>
   );
 };
 
