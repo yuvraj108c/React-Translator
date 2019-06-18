@@ -1,5 +1,10 @@
 {
   "home.greeting": "Bienvenue!",
   "home.description": "Ici c'est notre website!",
-  "home.button": "Commencer ici"
+  "home.button": "Commencer ici",
+
+  "about.message": "Je suis un developpeur de web. ",
+
+  "nav.home": "Maison",
+  "nav.about": "A propos"
 }

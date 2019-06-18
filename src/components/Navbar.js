@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
 import "../styles/Navbar.css";
 
@@ -19,10 +20,14 @@ const Navbar = props => {
       <div className="container">
         <div className="links">
           <a>
-            <Link to="/">Home</Link>
+            <Link to="/">
+              <FormattedMessage id="nav.home" />
+            </Link>
           </a>
           <a>
-            <Link to="/about">About</Link>
+            <Link to="/about">
+              <FormattedMessage id="nav.about" />
+            </Link>
           </a>
         </div>
         <select className="select" onChange={handleChange}>
