@@ -9,7 +9,7 @@ const Navbar = props => {
 
   useEffect(() => {
     props.changeLanguage(lang);
-  }, [lang]);
+  }, [lang, props]);
 
   const handleChange = event => {
     setLang(event.target.value);
