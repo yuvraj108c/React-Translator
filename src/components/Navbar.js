@@ -19,16 +19,12 @@ const Navbar = props => {
     <nav className="navbar">
       <div className="container">
         <div className="links">
-          <a>
-            <Link to="/">
-              <FormattedMessage id="nav.home" />
-            </Link>
-          </a>
-          <a>
-            <Link to="/about">
-              <FormattedMessage id="nav.about" />
-            </Link>
-          </a>
+          <Link to="/home">
+            <FormattedMessage id="nav.home" />
+          </Link>
+          <Link to="/about">
+            <FormattedMessage id="nav.about" />
+          </Link>
         </div>
         <select className="select" onChange={handleChange}>
           <option value="en">English</option>
