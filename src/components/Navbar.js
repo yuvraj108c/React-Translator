@@ -16,18 +16,20 @@ const Navbar = props => {
 
   return (
     <nav className="navbar">
-      <select onChange={handleChange}>
-        <option value="en">English</option>
-        <option value="fr">French</option>
-      </select>
-      <ul className="routes">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-      </ul>
+      <div className="container">
+        <div className="links">
+          <a>
+            <Link to="/">Home</Link>
+          </a>
+          <a>
+            <Link to="/about">About</Link>
+          </a>
+        </div>
+        <select className="select" onChange={handleChange}>
+          <option value="en">English</option>
+          <option value="fr">French</option>
+        </select>
+      </div>
     </nav>
   );
 };
