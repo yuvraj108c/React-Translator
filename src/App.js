@@ -1,21 +1,27 @@
 import React from "react";
 import { connect } from "react-redux";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Footer from "./components/Footer";
+
 import "./App.css";
 
 const App = props => {
   return (
-    <Router>
-      <NavigationBar
-        language={props.language}
-        changeLanguage={props.changeLanguage}
-      />
-      <Route exact path="/home" component={Home} />
-      <Route exact path="/about" component={About} />
-    </Router>
+    <React.Fragment>
+      <Router>
+        <NavigationBar
+          language={props.language}
+          changeLanguage={props.changeLanguage}
+        />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/about" component={About} />
+      </Router>
+      <Footer />
+    </React.Fragment>
   );
 };
 
