@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import "./App.css";
@@ -9,7 +9,10 @@ import "./App.css";
 const App = props => {
   return (
     <Router>
-      <Navbar language={props.language} changeLanguage={props.changeLanguage} />
+      <NavigationBar
+        language={props.language}
+        changeLanguage={props.changeLanguage}
+      />
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
     </Router>
