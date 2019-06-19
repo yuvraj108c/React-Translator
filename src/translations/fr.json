@@ -6,5 +6,12 @@
   "about.message": "Je suis un developpeur de web. ",
 
   "nav.home": "Maison",
-  "nav.about": "A propos"
+  "nav.about": "A propos",
+
+  "carousel.image1.title": "Obtenez la meilleure nourriture",
+  "carousel.image1.description": "Découvrez des plats préparés par des cuisiniers professionnels",
+  "carousel.image2.title": "Bon appétit",
+  "carousel.image2.description": "Asseyez-vous et appréciez votre nourriture dans une atmosphère relaxante",
+
+  "copyright": "Droits d'auteur"
 }

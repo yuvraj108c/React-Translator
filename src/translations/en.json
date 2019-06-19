@@ -6,5 +6,12 @@
   "about.message": "I am a web developer",
 
   "nav.home": "Home",
-  "nav.about": "About"
+  "nav.about": "About",
+
+  "carousel.image1.title": "Get the best food",
+  "carousel.image1.description": "Experience food made by professional cooks",
+  "carousel.image2.title": "Enjoy your food",
+  "carousel.image2.description": "Sit and enjoy your food in a relaxing atmosphere",
+
+  "copyright": "copyright"
 }
