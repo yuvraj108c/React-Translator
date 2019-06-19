@@ -1,25 +1,40 @@
 import React from "react";
 import "../styles/Home.css";
 
+import Carousel from "react-bootstrap/Carousel";
+import food from "../assets/img/food.jpg";
+import dinner from "../assets/img/dinner.jpg";
 import { FormattedMessage } from "react-intl";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="main">
-        <div className="hero">
-          <h2 className="greeting">
-            <FormattedMessage id="home.greeting" />
-          </h2>
-          <p className="description">
-            <FormattedMessage id="home.description" />
-          </p>
-          <button>
-            <FormattedMessage id="home.button" />
-          </button>
+    <Carousel>
+      <Carousel.Item>
+        <div className="image-container">
+          <img className="d-block w-100" src={food} alt="First slide" />
         </div>
-      </div>
-    </div>
+        <Carousel.Caption>
+          <h3>
+            <FormattedMessage id="carousel.image1.title" />
+          </h3>
+          <p>
+            <FormattedMessage id="carousel.image1.description" />
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={dinner} alt="Third slide" />
+
+        <Carousel.Caption>
+          <h3>
+            <FormattedMessage id="carousel.image2.title" />
+          </h3>
+          <p>
+            <FormattedMessage id="carousel.image2.description" />
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
   );
 };
 
