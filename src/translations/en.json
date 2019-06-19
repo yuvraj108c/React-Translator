@@ -1,9 +1,7 @@
 {
-  "home.greeting": "Welcome",
-  "home.description": "This is our website",
-  "home.button": "Get Started",
-
-  "about.message": "I am a web developer",
+  "about.title": "About us",
+  "about.message": "We are one of the best restaurants in Mauritius. Our chefs are all trained by professionals in the cooking industry",
+  "about.button": "Email us",
 
   "nav.home": "Home",
   "nav.about": "About",

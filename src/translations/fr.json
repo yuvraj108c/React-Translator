@@ -1,12 +1,10 @@
 {
-  "home.greeting": "Bienvenue!",
-  "home.description": "Ici c'est notre website!",
-  "home.button": "Commencer ici",
-
-  "about.message": "Je suis un developpeur de web. ",
+  "about.title": "À propos de nous",
+  "about.message": "Nous sommes l'un des meilleurs restaurants de l'île Maurice. Nos chefs sont tous formés par des professionnels de l'industrie de la cuisine",
+  "about.button": "Envoyez-nous un email",
 
   "nav.home": "Maison",
-  "nav.about": "A propos",
+  "nav.about": "À propos",
 
   "carousel.image1.title": "Obtenez la meilleure nourriture",
   "carousel.image1.description": "Découvrez des plats préparés par des cuisiniers professionnels",
