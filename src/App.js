@@ -12,7 +12,7 @@ import "./App.css";
 const App = props => {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/React-Translator">
         <NavigationBar
           language={props.language}
           changeLanguage={props.changeLanguage}
