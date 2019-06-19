@@ -14,9 +14,9 @@ const Home = () => {
           <img className="d-block w-100" src={food} alt="First slide" />
         </div>
         <Carousel.Caption>
-          <h3>
+          <h1>
             <FormattedMessage id="carousel.image1.title" />
-          </h3>
+          </h1>
           <p>
             <FormattedMessage id="carousel.image1.description" />
           </p>
@@ -26,9 +26,9 @@ const Home = () => {
         <img className="d-block w-100" src={dinner} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>
+          <h1>
             <FormattedMessage id="carousel.image2.title" />
-          </h3>
+          </h1>
           <p>
             <FormattedMessage id="carousel.image2.description" />
           </p>
