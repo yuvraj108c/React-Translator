@@ -7,19 +7,23 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
+import en from "./translations/en";
+import fr from "./translations/fr";
+
 import "./App.css";
 
 const App = props => {
   return (
     <React.Fragment>
-      <Router basename="/React-Translator">
+      <Router>
         <NavigationBar
           language={props.language}
           changeLanguage={props.changeLanguage}
         />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path={"/en/" + en["url.home"]} component={Home} />
+        <Route exact path={"/en/" + en["url.about"]} component={About} />
+        <Route exact path={"/fr/" + fr["url.home"]} component={Home} />
+        <Route exact path={"/fr/" + fr["url.about"]} component={About} />
       </Router>
       <Footer />
     </React.Fragment>
