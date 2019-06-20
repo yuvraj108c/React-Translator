@@ -1,11 +1,12 @@
 import React from "react";
 import { connect } from "react-redux";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import PageNotFound from "./components/PageNotFound";
 
 import en from "./translations/en";
 import fr from "./translations/fr";
@@ -20,10 +21,15 @@ const App = props => {
           language={props.language}
           changeLanguage={props.changeLanguage}
         />
-        <Route exact path={"/en/" + en["url.home"]} component={Home} />
-        <Route exact path={"/en/" + en["url.about"]} component={About} />
-        <Route exact path={"/fr/" + fr["url.home"]} component={Home} />
-        <Route exact path={"/fr/" + fr["url.about"]} component={About} />
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path={"/en/" + en["url.home"]} component={Home} />
+          <Route exact path={"/en/" + en["url.about"]} component={About} />
+          <Route exact path={"/fr/" + fr["url.home"]} component={Home} />
+          <Route exact path={"/fr/" + fr["url.about"]} component={About} />
+          <Route component={PageNotFound} />
+        </Switch>
       </Router>
       <Footer />
     </React.Fragment>
