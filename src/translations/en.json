@@ -14,5 +14,8 @@
   "carousel.image2.title": "Enjoy your food",
   "carousel.image2.description": "Sit and enjoy your food in a relaxing atmosphere",
 
-  "copyright": "copyright"
+  "copyright": "copyright",
+
+  "error.message": "Page not Found.",
+  "error.button": "Go back home"
 }

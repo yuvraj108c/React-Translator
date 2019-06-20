@@ -14,5 +14,8 @@
   "carousel.image2.title": "Bon appétit",
   "carousel.image2.description": "Asseyez-vous et appréciez votre nourriture dans une atmosphère relaxante",
 
-  "copyright": "Droits d'auteur"
+  "copyright": "Droits d'auteur",
+
+  "error.message": "Page non trouvée",
+  "error.button": "Retourner à l'accueille"
 }
