@@ -30,7 +30,7 @@ const NavigationBar = props => {
     <Navbar bg="dark" variant="dark" expand="sm">
       <Container>
         <Navbar.Brand>
-          <Form.Control as="select" onChange={handleChange}>
+          <Form.Control as="select" onChange={handleChange} defaultValue={lang}>
             <option value="en">English</option>
             <option value="fr">French</option>
           </Form.Control>
