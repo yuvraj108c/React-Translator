@@ -3,8 +3,11 @@
   "about.message": "Nous sommes l'un des meilleurs restaurants de l'île Maurice. Nos chefs sont tous formés par des professionnels de l'industrie de la cuisine",
   "about.button": "Envoyez-nous un email",
 
-  "nav.home": "Maison",
-  "nav.about": "À propos",
+  "nav.home": "Acueille",
+  "nav.about": "A propos",
+
+  "url.home": "accueille",
+  "url.about": "a propos",
 
   "carousel.image1.title": "Obtenez la meilleure nourriture",
   "carousel.image1.description": "Découvrez des plats préparés par des cuisiniers professionnels",
