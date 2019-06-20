@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Translator/static/css/main.ad71b11e.chunk.css",
-    "main.js": "/React-Translator/static/js/main.1046aca0.chunk.js",
-    "main.js.map": "/React-Translator/static/js/main.1046aca0.chunk.js.map",
+    "main.css": "/React-Translator/static/css/main.ec0a9fc1.chunk.css",
+    "main.js": "/React-Translator/static/js/main.69c84fc8.chunk.js",
+    "main.js.map": "/React-Translator/static/js/main.69c84fc8.chunk.js.map",
     "runtime~main.js": "/React-Translator/static/js/runtime~main.7e1adb78.js",
     "runtime~main.js.map": "/React-Translator/static/js/runtime~main.7e1adb78.js.map",
-    "static/js/2.fbd6d2a8.chunk.js": "/React-Translator/static/js/2.fbd6d2a8.chunk.js",
-    "static/js/2.fbd6d2a8.chunk.js.map": "/React-Translator/static/js/2.fbd6d2a8.chunk.js.map",
+    "static/js/2.621ef57a.chunk.js": "/React-Translator/static/js/2.621ef57a.chunk.js",
+    "static/js/2.621ef57a.chunk.js.map": "/React-Translator/static/js/2.621ef57a.chunk.js.map",
     "index.html": "/React-Translator/index.html",
-    "precache-manifest.9e9147949bd5bf992c6ede93d86b22d0.js": "/React-Translator/precache-manifest.9e9147949bd5bf992c6ede93d86b22d0.js",
+    "precache-manifest.8cd935224ac0e8c21da19290196b3c91.js": "/React-Translator/precache-manifest.8cd935224ac0e8c21da19290196b3c91.js",
     "service-worker.js": "/React-Translator/service-worker.js",
-    "static/css/main.ad71b11e.chunk.css.map": "/React-Translator/static/css/main.ad71b11e.chunk.css.map",
+    "static/css/main.ec0a9fc1.chunk.css.map": "/React-Translator/static/css/main.ec0a9fc1.chunk.css.map",
     "static/media/dinner.jpg": "/React-Translator/static/media/dinner.b7e5f8cc.jpg",
     "static/media/food.jpg": "/React-Translator/static/media/food.3ebbef94.jpg"
   }
