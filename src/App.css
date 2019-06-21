@@ -1,5 +1,6 @@
 .contact,
-.about {
+.about,
+.jumbotron {
   height: 80vh;
   margin-bottom: 5px;
 }
