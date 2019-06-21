@@ -6,21 +6,23 @@ import { FormattedMessage } from "react-intl";
 
 const About = () => {
   return (
-    <Jumbotron>
-      <Container>
-        <h1>
-          <FormattedMessage id="about.title" />
-        </h1>
-        <p>
-          <FormattedMessage id="about.message" />
-        </p>
-        <br />
-        <hr />
-        <Button>
-          <FormattedMessage id="about.button" />
-        </Button>
-      </Container>
-    </Jumbotron>
+    <div className="about">
+      <Jumbotron>
+        <Container>
+          <h1>
+            <FormattedMessage id="about.title" />
+          </h1>
+          <p>
+            <FormattedMessage id="about.message" />
+          </p>
+          <br />
+          <hr />
+          <Button>
+            <FormattedMessage id="about.button" />
+          </Button>
+        </Container>
+      </Jumbotron>
+    </div>
   );
 };
 

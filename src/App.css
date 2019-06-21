@@ -1,5 +1,6 @@
-.jumbotron,
-.carousel {
+.carousel,
+.contact,
+.about {
   height: 80vh;
   margin-bottom: 5px;
 }
