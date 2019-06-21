@@ -6,6 +6,7 @@ import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
 
 import en from "./translations/en";
@@ -25,9 +26,11 @@ const App = props => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path={"/en/" + en["url.home"]} component={Home} />
+          <Route exact path={"/en/" + en["url.contact"]} component={Contact} />
           <Route exact path={"/en/" + en["url.about"]} component={About} />
           <Route exact path={"/fr/" + fr["url.home"]} component={Home} />
           <Route exact path={"/fr/" + fr["url.about"]} component={About} />
+          <Route exact path={"/fr/" + fr["url.contact"]} component={Contact} />
           <Route component={PageNotFound} />
         </Switch>
       </Router>

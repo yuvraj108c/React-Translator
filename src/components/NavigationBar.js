@@ -50,6 +50,12 @@ const NavigationBar = props => {
             >
               <FormattedMessage id="nav.about" />
             </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to={"/" + lang + "/" + languagesObj[lang]["url.contact"]}
+            >
+              <FormattedMessage id="nav.contact" />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
