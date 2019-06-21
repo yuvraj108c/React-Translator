@@ -5,9 +5,11 @@
 
   "nav.home": "Acueille",
   "nav.about": "A propos",
+  "nav.contact": "Contacter",
 
   "url.home": "accueille",
   "url.about": "a propos",
+  "url.contact": "contacter",
 
   "carousel.image1.title": "Obtenez la meilleure nourriture",
   "carousel.image1.description": "Découvrez des plats préparés par des cuisiniers professionnels",
@@ -17,5 +19,10 @@
   "copyright": "Droits d'auteur",
 
   "error.message": "Page non trouvée",
-  "error.button": "Retourner à l'accueille"
+  "error.button": "Retourner à l'accueille",
+
+  "contact.title": "Envoie-nous un message",
+  "contact.email": "Adresse électronique",
+  "contact.message": "Message",
+  "contact.button": "Envoyez"
 }

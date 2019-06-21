@@ -5,9 +5,11 @@
 
   "nav.home": "Home",
   "nav.about": "About",
+  "nav.contact": "Contact",
 
   "url.home": "home",
   "url.about": "about",
+  "url.contact": "contact",
 
   "carousel.image1.title": "Get the best food",
   "carousel.image1.description": "Experience food made by professional cooks",
@@ -17,5 +19,10 @@
   "copyright": "copyright",
 
   "error.message": "Page not Found.",
-  "error.button": "Go back home"
+  "error.button": "Go back home",
+
+  "contact.title": "Send us a message",
+  "contact.email": "Email addresss",
+  "contact.message": "Message",
+  "contact.button": "Send"
 }
