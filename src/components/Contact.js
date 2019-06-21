@@ -15,16 +15,16 @@ const Contact = () => {
             <FormattedMessage id="contact.title" />
           </h2>
           <Form.Group>
-            <Form.Label>
+            <Form.Label htmlFor="contact-email">
               <FormattedMessage id="contact.email" />
             </Form.Label>
-            <Form.Control type="email" />
+            <Form.Control type="email" id="contact-email" />
           </Form.Group>
           <Form.Group>
-            <Form.Label>
+            <Form.Label htmlFor="contact-message">
               <FormattedMessage id="contact.message" />
             </Form.Label>
-            <Form.Control as="textarea" rows="3" />
+            <Form.Control as="textarea" rows="3" id="contact-message" />
           </Form.Group>
           <Button variant="primary" type="submit">
             <FormattedMessage id="contact.button" />

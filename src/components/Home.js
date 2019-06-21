@@ -12,8 +12,6 @@ import food from "../assets/img/food.jpg";
 import food2 from "../assets/img/local-food.jpg";
 import customer from "../assets/img/customer.jpg";
 
-import "../styles/Home.css";
-
 const Home = () => {
   return (
     <div className="home">
