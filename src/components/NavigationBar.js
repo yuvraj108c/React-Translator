@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 
 import en from "../translations/en";
 import fr from "../translations/fr";
+import componentsTranslation from "../translations/components";
 
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
@@ -20,6 +21,13 @@ const NavigationBar = props => {
 
   useEffect(() => {
     props.changeLanguage(lang);
+    const currentComponent = props.location.pathname.slice(4);
+    props.history.replace(
+      "/" +
+        lang +
+        "/" +
+        languagesObj[lang][`url.${componentsTranslation[currentComponent]}`]
+    );
   }, [lang]);
 
   const handleChange = event => {
@@ -63,4 +71,4 @@ const NavigationBar = props => {
   );
 };
 
-export default NavigationBar;
+export default withRouter(NavigationBar);
