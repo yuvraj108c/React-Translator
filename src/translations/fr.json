@@ -11,10 +11,18 @@
   "url.about": "a propos",
   "url.contact": "contacter",
 
-  "carousel.image1.title": "Obtenez la meilleure nourriture",
+  "carousel.image1.title": "Les meilleures nourriture",
   "carousel.image1.description": "Découvrez des plats préparés par des cuisiniers professionnels",
   "carousel.image2.title": "Bon appétit",
   "carousel.image2.description": "Asseyez-vous et appréciez votre nourriture dans une atmosphère relaxante",
+
+  "home.card1.title": "Rencontrez nos chefs",
+  "home.card1.text": "Nos chefs mauriciens sont hautement qualifiés par des professionnels de l'industrie de la cuisine",
+  "home.card2.title": "Nos plats",
+  "home.card2.text": "Nous proposons une variété de plats exotiques allant des goûts locaux aux goûts internationaux.",
+  "home.card3.title": "Nous sommes les meilleurs!",
+  "home.card3.text": "Nos restaurants ont remporté plusieurs prix. Nous nous assurons que nos clients sont 100% satisfaits de nos services.",
+  "home.card.footer": "Apprendre encore plus",
 
   "copyright": "Droits d'auteur",
 

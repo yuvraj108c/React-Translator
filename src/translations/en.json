@@ -16,6 +16,14 @@
   "carousel.image2.title": "Enjoy your food",
   "carousel.image2.description": "Sit and enjoy your food in a relaxing atmosphere",
 
+  "home.card1.title": "Meet our chefs",
+  "home.card1.text": "Our mauritian chefs are highly trained by professionals in the cooking industry.",
+  "home.card2.title": "Our dishes",
+  "home.card2.text": " We offer a variety of exotic dishes ranging from local to international tastes.",
+  "home.card3.title": "We are the best!",
+  "home.card3.text": "Our restaurants have won several awards. We make sure our customers are 100% satisfied with our services.",
+  "home.card.footer": "Learn more",
+
   "copyright": "copyright",
 
   "error.message": "Page not Found.",
