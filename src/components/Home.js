@@ -1,18 +1,18 @@
 import React from "react";
-import "../styles/Home.css";
-
-import Carousel from "react-bootstrap/Carousel";
-import food from "../assets/img/food.jpg";
-import dinner from "../assets/img/dinner.jpg";
 import { FormattedMessage } from "react-intl";
 
 import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
 
+import dinner from "../assets/img/dinner.jpg";
 import chef from "../assets/img/chef.jpg";
+import food from "../assets/img/food.jpg";
 import food2 from "../assets/img/local-food.jpg";
 import customer from "../assets/img/customer.jpg";
+
+import "../styles/Home.css";
 
 const Home = () => {
   return (
