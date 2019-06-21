@@ -4,3 +4,17 @@
   height: 80vh;
   margin-bottom: 5px;
 }
+img {
+  max-height: 550px;
+}
+.card-deck {
+  margin: 15% 0;
+}
+
+img.card-img-top {
+  max-height: 200px;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
