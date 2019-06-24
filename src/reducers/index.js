@@ -1,10 +1,10 @@
 const { origin, href } = window.location;
-const language = href.replace(origin, "").slice(1, 3);
+const initialLanguage = href.replace(origin, "").slice(1, 3);
 
 const initialState = {
-  language: language || "en"
+  language: initialLanguage || "en"
 };
-const reducer = (state = initialState, action) => {
+const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case "CHANGE_LANGUAGE":
       return { ...state, language: action.value };
@@ -13,4 +13,5 @@ const reducer = (state = initialState, action) => {
       return state;
   }
 };
-export default reducer;
+
+export default rootReducer;
