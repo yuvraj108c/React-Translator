@@ -9,7 +9,7 @@ import locale_fr from "react-intl/locale-data/fr";
 
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import reducer from "./store/reducer";
+import rootReducer from "./reducers";
 
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
@@ -24,7 +24,7 @@ const messages = {
   fr: messages_fr
 };
 
-const store = createStore(reducer);
+const store = createStore(rootReducer);
 
 store.subscribe(() => {
   const language = store.getState().language;

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import GoogleMap from "google-map-react";
 import icon from "../assets/img/location-icon.png";
 
-const Icon = () => <img src={icon} />;
+const Icon = () => <img src={icon} alt="location-icon" />;
 
 class SimpleMap extends Component {
   static defaultProps = {
