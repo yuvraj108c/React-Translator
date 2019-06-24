@@ -1,6 +1,8 @@
 import React from "react";
-import { connect } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import { changeLanguage } from "./actions";
+import { connect } from "react-redux";
 
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
@@ -18,10 +20,7 @@ const App = props => {
   return (
     <React.Fragment>
       <Router>
-        <NavigationBar
-          language={props.language}
-          changeLanguage={props.changeLanguage}
-        />
+        <NavigationBar />
 
         <Switch>
           <Route exact path="/" component={Home} />
@@ -45,14 +44,7 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    changeLanguage: language =>
-      dispatch({ type: "CHANGE_LANGUAGE", value: language })
-  };
-};
-
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  { changeLanguage }
 )(App);

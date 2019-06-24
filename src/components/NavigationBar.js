@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
+import { useSelector, useDispatch } from "react-redux";
 
 import en from "../translations/en";
 import fr from "../translations/fr";
@@ -12,7 +13,8 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 
 const NavigationBar = props => {
-  const [lang, setLang] = useState(props.language);
+  const [lang, setLang] = useState(useSelector(state => state.language));
+  const dispatch = useDispatch();
 
   const languagesObj = {
     en: en,
@@ -20,7 +22,8 @@ const NavigationBar = props => {
   };
 
   useEffect(() => {
-    props.changeLanguage(lang);
+    dispatch({ type: "CHANGE_LANGUAGE", value: lang });
+
     const currentComponent = props.location.pathname.slice(4);
     props.history.replace(
       "/" +
