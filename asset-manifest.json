@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Translator/static/css/main.e93e039b.chunk.css",
-    "main.js": "/React-Translator/static/js/main.12634533.chunk.js",
-    "main.js.map": "/React-Translator/static/js/main.12634533.chunk.js.map",
-    "runtime~main.js": "/React-Translator/static/js/runtime~main.7e1adb78.js",
-    "runtime~main.js.map": "/React-Translator/static/js/runtime~main.7e1adb78.js.map",
-    "static/js/2.bd6d2571.chunk.js": "/React-Translator/static/js/2.bd6d2571.chunk.js",
-    "static/js/2.bd6d2571.chunk.js.map": "/React-Translator/static/js/2.bd6d2571.chunk.js.map",
-    "index.html": "/React-Translator/index.html",
-    "precache-manifest.2beb78e0855a25f6aae8f09a2ce2b3e0.js": "/React-Translator/precache-manifest.2beb78e0855a25f6aae8f09a2ce2b3e0.js",
-    "service-worker.js": "/React-Translator/service-worker.js",
-    "static/css/main.e93e039b.chunk.css.map": "/React-Translator/static/css/main.e93e039b.chunk.css.map",
-    "static/media/chef.jpg": "/React-Translator/static/media/chef.44e7a728.jpg",
-    "static/media/dinner.jpg": "/React-Translator/static/media/dinner.b7e5f8cc.jpg",
-    "static/media/food.jpg": "/React-Translator/static/media/food.3ebbef94.jpg",
-    "static/media/local-food.jpg": "/React-Translator/static/media/local-food.006bdd61.jpg"
+    "main.css": "/React-Multilingual/static/css/main.e93e039b.chunk.css",
+    "main.js": "/React-Multilingual/static/js/main.c63862d4.chunk.js",
+    "main.js.map": "/React-Multilingual/static/js/main.c63862d4.chunk.js.map",
+    "runtime~main.js": "/React-Multilingual/static/js/runtime~main.0a72766e.js",
+    "runtime~main.js.map": "/React-Multilingual/static/js/runtime~main.0a72766e.js.map",
+    "static/js/2.bd6d2571.chunk.js": "/React-Multilingual/static/js/2.bd6d2571.chunk.js",
+    "static/js/2.bd6d2571.chunk.js.map": "/React-Multilingual/static/js/2.bd6d2571.chunk.js.map",
+    "index.html": "/React-Multilingual/index.html",
+    "precache-manifest.412e0ecbde9dd82f7bf084182ca021c8.js": "/React-Multilingual/precache-manifest.412e0ecbde9dd82f7bf084182ca021c8.js",
+    "service-worker.js": "/React-Multilingual/service-worker.js",
+    "static/css/main.e93e039b.chunk.css.map": "/React-Multilingual/static/css/main.e93e039b.chunk.css.map",
+    "static/media/chef.jpg": "/React-Multilingual/static/media/chef.44e7a728.jpg",
+    "static/media/dinner.jpg": "/React-Multilingual/static/media/dinner.b7e5f8cc.jpg",
+    "static/media/food.jpg": "/React-Multilingual/static/media/food.3ebbef94.jpg",
+    "static/media/local-food.jpg": "/React-Multilingual/static/media/local-food.006bdd61.jpg"
   }
 }
