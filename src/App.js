@@ -16,10 +16,10 @@ import fr from "./translations/fr";
 
 import "./App.css";
 
-const App = props => {
+const App = (props) => {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/React-Multilingual">
         <NavigationBar />
 
         <Switch>
@@ -38,13 +38,10 @@ const App = props => {
   );
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    language: state.language
+    language: state.language,
   };
 };
 
-export default connect(
-  mapStateToProps,
-  { changeLanguage }
-)(App);
+export default connect(mapStateToProps, { changeLanguage })(App);
