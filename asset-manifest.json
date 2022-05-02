@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Multilingual/static/css/main.e93e039b.chunk.css",
-    "main.js": "/React-Multilingual/static/js/main.630c9650.chunk.js",
-    "main.js.map": "/React-Multilingual/static/js/main.630c9650.chunk.js.map",
-    "runtime~main.js": "/React-Multilingual/static/js/runtime~main.0a72766e.js",
-    "runtime~main.js.map": "/React-Multilingual/static/js/runtime~main.0a72766e.js.map",
-    "static/js/2.bfc1e266.chunk.js": "/React-Multilingual/static/js/2.bfc1e266.chunk.js",
-    "static/js/2.bfc1e266.chunk.js.map": "/React-Multilingual/static/js/2.bfc1e266.chunk.js.map",
-    "index.html": "/React-Multilingual/index.html",
-    "precache-manifest.bd3d9dbb90abdfe49f3eff4531fd2924.js": "/React-Multilingual/precache-manifest.bd3d9dbb90abdfe49f3eff4531fd2924.js",
-    "service-worker.js": "/React-Multilingual/service-worker.js",
-    "static/css/main.e93e039b.chunk.css.map": "/React-Multilingual/static/css/main.e93e039b.chunk.css.map",
-    "static/media/chef.jpg": "/React-Multilingual/static/media/chef.44e7a728.jpg",
-    "static/media/dinner.jpg": "/React-Multilingual/static/media/dinner.b7e5f8cc.jpg",
-    "static/media/food.jpg": "/React-Multilingual/static/media/food.3ebbef94.jpg",
-    "static/media/local-food.jpg": "/React-Multilingual/static/media/local-food.006bdd61.jpg"
+    "main.css": "/static/css/main.e93e039b.chunk.css",
+    "main.js": "/static/js/main.10efa4bb.chunk.js",
+    "main.js.map": "/static/js/main.10efa4bb.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.bd6d2571.chunk.js": "/static/js/2.bd6d2571.chunk.js",
+    "static/js/2.bd6d2571.chunk.js.map": "/static/js/2.bd6d2571.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.02c1d7294b2fef494bae9d5bd3fe0d28.js": "/precache-manifest.02c1d7294b2fef494bae9d5bd3fe0d28.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e93e039b.chunk.css.map": "/static/css/main.e93e039b.chunk.css.map",
+    "static/media/chef.jpg": "/static/media/chef.44e7a728.jpg",
+    "static/media/dinner.jpg": "/static/media/dinner.b7e5f8cc.jpg",
+    "static/media/food.jpg": "/static/media/food.3ebbef94.jpg",
+    "static/media/local-food.jpg": "/static/media/local-food.006bdd61.jpg"
   }
 }
