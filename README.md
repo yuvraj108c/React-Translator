@@ -1,1 +1,1 @@
-URL: https://yuvraj108c.github.io/React-Translator/
+# A Multilingual website implemented in React
