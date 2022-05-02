@@ -21,7 +21,7 @@ addLocaleData([...locale_en, ...locale_fr]);
 
 const messages = {
   en: messages_en,
-  fr: messages_fr
+  fr: messages_fr,
 };
 
 const store = createStore(rootReducer);
@@ -31,7 +31,7 @@ store.subscribe(() => {
   renderIndex(language);
 });
 
-const renderIndex = language => {
+const renderIndex = (language) => {
   ReactDOM.render(
     <IntlProvider locale={language} messages={messages[language]}>
       <Provider store={store}>
