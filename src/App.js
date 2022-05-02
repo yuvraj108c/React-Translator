@@ -19,7 +19,7 @@ import "./App.css";
 const App = (props) => {
   return (
     <React.Fragment>
-      <Router basename="/React-Multilingual">
+      <Router>
         <NavigationBar />
 
         <Switch>
