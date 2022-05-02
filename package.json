@@ -1,8 +1,8 @@
 {
   "name": "react-translator",
-  "homepage": "https://yuvraj108c.github.io/React-Translator",
+  "homepage": "https://yuvraj108c.github.io/React-Multilingual",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
